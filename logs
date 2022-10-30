@@ -1,0 +1,26 @@
+2022/10/30 19:14:48 Starting panic.go
+2022/10/30 19:14:48 Can't divide by zero goroutine 1 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x65
+main.errorHandler()
+	/home/crespire/repos/golang/panics/panic.go:12 +0x39
+panic({0x492500, 0x4c2758})
+	/usr/local/go/src/runtime/panic.go:884 +0x212
+main.Divide(0xc000088f60?, 0x4c2bf8?)
+	/home/crespire/repos/golang/panics/panic.go:19 +0x8f
+main.main()
+	/home/crespire/repos/golang/panics/panic.go:33 +0xc5
+
+2022/10/30 19:15:39 Starting panic.go
+2022/10/30 19:15:39 Can't divide by zero goroutine 1 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x65
+main.errorHandler()
+	/home/crespire/repos/golang/panics/panic.go:12 +0x39
+panic({0x492500, 0x4c27a8})
+	/usr/local/go/src/runtime/panic.go:884 +0x212
+main.Divide(0xc000066f58?, 0x4c2c48?)
+	/home/crespire/repos/golang/panics/panic.go:19 +0x8f
+main.main()
+	/home/crespire/repos/golang/panics/panic.go:36 +0x105
+
